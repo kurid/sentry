@@ -275,7 +275,11 @@ window.TestStubs = {
   ],
 
   AuthProviders: () => {
-    return [['dummy', 'Dummy']];
+    return [['dummy', 'Dummy', false]];
+  },
+
+  AuthProvidersSaml: () => {
+    return [['dummy', 'Dummy', true]];
   },
 
   AuthProvider: () => {
