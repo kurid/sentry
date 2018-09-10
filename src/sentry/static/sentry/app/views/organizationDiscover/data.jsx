@@ -19,6 +19,11 @@ export const PROMOTED_TAGS = [
   {name: 'tags[sentry:release]', type: 'string'},
 ];
 
+// All tags are assumed to be strings, except the following
+export const SPECIAL_TAGS = {
+  'tags[os_rooted]': TYPES.BOOLEAN,
+};
+
 export const COLUMNS = [
   {name: 'event_id', type: 'string'},
   {name: 'project_id', type: 'string'},
