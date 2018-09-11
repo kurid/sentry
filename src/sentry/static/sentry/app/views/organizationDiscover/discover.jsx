@@ -379,8 +379,7 @@ const SidebarHeader = styled(Flex)`
 `;
 
 const DiscoverBody = styled(Flex)`
-  min-height: calc(100vh - 152px);
-  margin-bottom: -20px;
+  min-height: calc(107vh - 174px);
 `;
 
 const Discover = styled('div')`
